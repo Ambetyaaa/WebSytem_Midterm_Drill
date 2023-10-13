@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 3rem;
+  text-align: center;
+}* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* HEADER */
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo-container {
+    margin-top: 3rem;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  
+  
