@@ -33,14 +33,24 @@ header h1 {
 .logo-container img {
   max-width: 100px;
 }
+header h1 {
+  font-family: Arial Black, sans-serif; 
+  font-size: 36px; color: #000000;
+}
 
 .registration-no h4 span {
   color: red;
+ 
+}
+.registration-no h4 {
+  margin-left: 100px;
 }
 
 main {
   border: solid black;
   min-height: 100vh;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 section {
@@ -54,14 +64,3 @@ section {
   border-bottom: solid black;
 }
 
-.general-info {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.table-info {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
