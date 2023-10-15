@@ -38,20 +38,20 @@ header h1 {
   font-size: 36px; color: #000000;
 }
 
-.registration-no h4 span {
+.registration-no h2 span {
   color: red;
  
 }
-.registration-no h4 {
+.registration-no h2 {
   margin-left: 100px;
 }
 
-main {
-  border: solid black;
-  min-height: 100vh;
+table, th, td {
+  border:1px solid black;
   margin-left: 100px;
   margin-right: 100px;
 }
+
 
 section {
   padding-bottom: 1rem;
