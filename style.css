@@ -4,6 +4,7 @@ body {
   padding: 3rem;
   margin-left: 100px;  
   margin-right: 100px;
+  
 }
 
 * {
@@ -22,6 +23,8 @@ header {
 
 header h1 {
   text-align: center;
+  letter-spacing: normal;
+  font: italic;
 }
 
 .logo-container {
@@ -48,24 +51,43 @@ header h1 {
   margin-left: 100px;
 }
 
-  table {
-
+/* general-info-header */
+.general-info-header  {
   width: 100%;
    padding: 0.3rem;
-   border-top: solid black;
-   border-bottom: solid black;
-   border-left: solid black;
-   border-right: solid black;
-
+   border: solid black 1px;
+   border-collapse: collapse;
+   
 }
-
-
-.general-info-header {
+#SGI{
   background-color: #ddccff;
   text-align: center;
   padding: 0.3rem;
-  border-bottom: medium black;
-
-  
+  width: 100%;
+  border: solid black 1px;
 }
+
+#stu {
+  padding-right: 180px;
+}
+#cs {
+  padding-right: 190px;
+}
+
+/* Student Subject info */
+.student-subject-info-header th {
+  width: 110%;
+  padding: 0.3rem;
+  font-weight: bold;
+  background-color: #ddccff;
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-bottom: solid black 1px;  
+}
+
+
+
+
+
+
 
