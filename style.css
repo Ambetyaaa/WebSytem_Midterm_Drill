@@ -21,12 +21,6 @@ header {
   gap: 1rem;
 }
 
-header h1 {
-  text-align: center;
-  letter-spacing: normal;
-  font: italic;
-}
-
 .logo-container {
   margin-top: 3rem;
   display: flex;
@@ -38,17 +32,19 @@ header h1 {
 .logo-container img {
   max-width: 100px;
 }
-header h1 {
+header h3 {
   font-family: Arial Black, sans-serif; 
-  font-size: 36px; color: #000000;
+  text-align: center;
+  letter-spacing: 7px;
+  font: italic;
 }
 
-.registration-no h2 span {
+.registration-no h4 span {
   color: red;
  
 }
-.registration-no h2 {
-  margin-left: 100px;
+.registration-no h4 {
+  margin-left: 30px;
 }
 
 /* general-info-header */
@@ -57,8 +53,8 @@ header h1 {
    padding: 0.3rem;
    border: solid black 1px;
    border-collapse: collapse;
-   
 }
+
 #SGI{
   background-color: #ddccff;
   text-align: center;
@@ -74,18 +70,46 @@ header h1 {
   padding-right: 190px;
 }
 
+
 /* Student Subject info */
 .student-subject-info-header th {
-  width: 110%;
-  padding: 0.3rem;
+  padding: 0.2rem;
   font-weight: bold;
   background-color: #ddccff;
-  border-left: solid black 1px;
-  border-right: solid black 1px;
-  border-bottom: solid black 1px;  
+  border-bottom: solid black 1px;
+  text-align: center;
 }
 
+.student-subject-info-header {
+  width: 100%;  
+  border-left: solid black 1px;
+  border-right: solid black 1px;
+  border-collapse: collapse;
+}
 
+#LM {
+  line-height: 0.5px;
+}
+#BK {
+  line-height: 0.5px;
+}
+#CL {
+  line-height: 0.5px;
+}
+#DRC {
+    line-height: 0.5px;
+  }
+#BR {
+  line-height: 0.5px;
+}
+
+#DR {
+  line-height: 0.5px;
+}
+
+#note {
+  font-style: italic;
+}
 
 
 
