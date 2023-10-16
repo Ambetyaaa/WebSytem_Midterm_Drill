@@ -48,20 +48,24 @@ header h1 {
   margin-left: 100px;
 }
 
-table, th {
-  border:1px solid black;
+  table {
+
   width: 100%;
+   padding: 0.3rem;
+   border-top: solid black;
+   border-bottom: solid black;
+   border-left: solid black;
+   border-right: solid black;
+
 }
 
-
-section {
-  padding-bottom: 1rem;
-}
 
 .general-info-header {
   background-color: #ddccff;
   text-align: center;
   padding: 0.3rem;
-  border-bottom: solid black;
+  border-bottom: medium black;
+
+  
 }
 
