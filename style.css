@@ -113,7 +113,7 @@ header h3 {
 
 #feecon {
   border: solid black 1px;
-    width: 90%;
+    width: 80%;
 }
 
 #assessed-fees-table, #table-3 {
@@ -134,6 +134,8 @@ header h3 {
   padding: 0.3rem;
   border-top: solid black 1px;
   border-bottom: solid black 1px;
+
+  
 }
 
 .right-fee {
@@ -191,3 +193,25 @@ header h3 {
   margin-right: 150px;
   font-weight: bold;
 }
+
+.Uni-registrar {
+  margin-top: 50px;
+  text-align: center;
+  padding-right: 100px;
+  float: left;
+  font-weight: bold;
+}
+
+.print-date {
+  margin-top: 15px;
+  margin-top: 15rem;
+  text-align: right;
+}
+
+.footer-cont {
+  text-align: center;
+  border-top:  solid black 4px;
+  background-color: #ddccff;
+
+}
+
