@@ -99,10 +99,11 @@ header h3 {
   border-collapse: collapse;
 }
 
-#ul {
+.ul {
   line-height: 0.5px;
 }
 
+/* Assessed fees table */
 .fees-container {
   margin-top: 20px;
   margin-left: 5rem;
@@ -113,10 +114,11 @@ header h3 {
 
 #feecon {
   border: solid black 1px;
-    width: 80%;
+  width: 80%;
 }
 
-#assessed-fees-table, #table-3 {
+#assessed-fees-table,
+#table-3 {
   border-spacing: 0;
   width: 100%;
 }
@@ -126,7 +128,7 @@ header h3 {
   text-align: center;
   padding: 0.3rem;
   border-bottom: solid black 1px;
-} 
+}
 
 #Secpayment {
   background-color: #ddccff;
@@ -135,12 +137,12 @@ header h3 {
   border-top: solid black 1px;
   border-bottom: solid black 1px;
 
-  
+
 }
 
 .right-fee {
-  text-align: right ;
-  
+  text-align: right;
+
 }
 
 .left-col {
@@ -152,7 +154,8 @@ header h3 {
   text-align: right;
 }
 
-.left-col, .right-col {
+.left-col,
+.right-col {
   border-bottom: solid 1px;
   border-top: solid 1px;
 }
@@ -167,7 +170,9 @@ header h3 {
   border: solid 1px;
 }
 
-#RR, #rules-1 {
+/* Rules and refund */
+#RR,
+#rules-1 {
   width: 70%;
   font-family: 'Courier New', Courier, monospace;
   font-size: 18px;
@@ -177,8 +182,8 @@ header h3 {
 
 #RR {
   text-align: center;
-  padding-top: 30px; 
-  font-weight: bold; 
+  padding-top: 30px;
+  font-weight: bold;
   margin-bottom: 20px;
 }
 
@@ -202,6 +207,7 @@ header h3 {
   font-weight: bold;
 }
 
+/* footer-part */
 .print-date {
   margin-top: 15px;
   margin-top: 15rem;
@@ -210,8 +216,7 @@ header h3 {
 
 .footer-cont {
   text-align: center;
-  border-top:  solid black 4px;
+  border-top: solid black 4px;
   background-color: #ddccff;
 
 }
-
