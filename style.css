@@ -1,16 +1,21 @@
+main {
+  border: solid black 1px;
+}
+
 body {
   font-family: Arial, sans-serif;
-  margin: 0; 
+  margin: 0;
   padding: 3rem;
-  margin-left: 100px;  
+  margin-left: 100px;
   margin-right: 100px;
-  
+  border: solid black 1px;
+
 }
 
 * {
-    margin: 0; 
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
@@ -32,8 +37,9 @@ header {
 .logo-container img {
   max-width: 100px;
 }
+
 header h3 {
-  font-family: Arial Black, sans-serif; 
+  font-family: Arial Black, sans-serif;
   text-align: center;
   letter-spacing: 7px;
   font: italic;
@@ -41,31 +47,37 @@ header h3 {
 
 .registration-no h4 span {
   color: red;
- 
+
 }
+
 .registration-no h4 {
   margin-left: 30px;
 }
 
 /* general-info-header */
-.general-info-header  {
+.general-info-header {
   width: 100%;
-   padding: 0.3rem;
-   border: solid black 1px;
-   border-collapse: collapse;
+  padding: 0.3rem;
+  border: solid black 1px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-collapse: collapse;
 }
 
-#SGI{
+#SGI {
   background-color: #ddccff;
   text-align: center;
   padding: 0.3rem;
   width: 100%;
-  border: solid black 1px;
+  border-bottom: solid black 1px;
+
 }
 
 #stu {
   padding-right: 180px;
 }
+
 #cs {
   padding-right: 190px;
 }
@@ -81,37 +93,101 @@ header h3 {
 }
 
 .student-subject-info-header {
-  width: 100%;  
-  border-left: solid black 1px;
-  border-right: solid black 1px;
+  width: 100%;
+  border-left: none;
+  border-right: none;
   border-collapse: collapse;
 }
 
-#LM {
-  line-height: 0.5px;
-}
-#BK {
-  line-height: 0.5px;
-}
-#CL {
-  line-height: 0.5px;
-}
-#DRC {
-    line-height: 0.5px;
-  }
-#BR {
+#ul {
   line-height: 0.5px;
 }
 
-#DR {
-  line-height: 0.5px;
+.fees-container {
+  margin-top: 20px;
+  margin-left: 5rem;
+  gap: 20rem;
+  display: flex;
+  width: 120%;
 }
 
-#note {
-  font-style: italic;
+#feecon {
+  border: solid black 1px;
+    width: 90%;
 }
 
+#assessed-fees-table, #table-3 {
+  border-spacing: 0;
+  width: 100%;
+}
 
+#fees {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.3rem;
+  border-bottom: solid black 1px;
+} 
 
+#Secpayment {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.3rem;
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+}
 
+.right-fee {
+  text-align: right ;
+  
+}
 
+.left-col {
+  text-align: left;
+  width: 70%;
+}
+
+.right-col {
+  text-align: right;
+}
+
+.left-col, .right-col {
+  border-bottom: solid 1px;
+  border-top: solid 1px;
+}
+
+#table-4 {
+  font-size: 13px;
+  width: 100%;
+  border-spacing: 0;
+}
+
+.first {
+  border: solid 1px;
+}
+
+#RR, #rules-1 {
+  width: 70%;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  float: right;
+  margin-right: 350px;
+}
+
+#RR {
+  text-align: center;
+  padding-top: 30px; 
+  font-weight: bold; 
+  margin-bottom: 20px;
+}
+
+#OR-1 span {
+  border-bottom: solid 1px;
+}
+
+#OR-1 {
+  margin-top: 150px;
+  width: 100%;
+  float: right;
+  margin-right: 150px;
+  font-weight: bold;
+}
